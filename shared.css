@@ -1,0 +1,71 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  background-image: url("Iloilobeach.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+}
+header li {
+  margin-left: 20px;
+}
+
+ul {
+  list-style: none;
+  margin-right: 15px;
+  padding: 0;
+}
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgba(51, 47, 47, 0.8);
+  padding: 10px;
+  border-radius: 20px 0 20px 0;
+}
+li a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.content {
+  margin: 1px 30px 30px 30px;
+  padding: 20px;
+  background-color: rgba(51, 47, 47, 0.9);
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+h1 {
+  color: yellow;
+  font-weight: bolder;
+}
+
+h2 {
+  color: yellow;
+}
+
+img {
+  border-radius: 50px 0 50px 0;
+}
+
+a {
+  color: yellow;
+}
+
+.reviews{
+    color: yellow;
+    margin-top: 50px;
+}
+
